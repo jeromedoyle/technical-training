@@ -30,7 +30,7 @@ class EstateProperty(models.Model):
         ],
         help="The direction the garden is orientated",
     )
-    active = fields.Boolean(default=False)
+    active = fields.Boolean(default=True)
     state = fields.Selection(
         string="State",
         selection=[
