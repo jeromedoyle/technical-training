@@ -18,13 +18,18 @@
         <field name="name">estate.property.tree</field>
         <field name="model">estate.property</field>
         <field name="arch" type="xml">
-        <field name="name"/>
-        <field name="postcode"/>
-        <field name="bedrooms"/>
-        <field name="living_area"/>
-        <field name="expected_price"/>
-        <field name="selling_price"/>
-        <field name="date_availability"/>
+            <tree string="Estate Property">
+                <field name="name"/>
+                <field name="postcode"/>
+                <field name="bedrooms"/>
+                <field name="living_area"/>
+                <field name="expected_price"/>
+                <field name="selling_price"/>
+                <field name="date_availability"/>
+            </tree>
+        </field>
+
+
     </record>
 
 
