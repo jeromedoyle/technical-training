@@ -46,19 +46,19 @@
                             <field name="expected_price"/>
                             <field name="selling_price"/>
                         </group>
-                        <notebook>
-                            <page string="Description">
-                                <field name="description"/>
-                                <field name="bedrooms"/>
-                                <field name="living_area"/>
-                                <field name="facades"/>
-                                <field name="garage"/>
-                                <field name="garden"/>
-                                <field name="garden_area"/>
-                                <field name="garden_orientation"/>
-                            </page>
-                        </notebook>
                     </group>
+                    <notebook>
+                        <page string="Description">
+                            <field name="description"/>
+                            <field name="bedrooms"/>
+                            <field name="living_area"/>
+                            <field name="facades"/>
+                            <field name="garage"/>
+                            <field name="garden"/>
+                            <field name="garden_area"/>
+                            <field name="garden_orientation"/>
+                        </page>
+                    </notebook>
                 </sheet>
             </form>
         </field>
