@@ -36,14 +36,16 @@
         <field name="model">estate.property</field>
         <field name="arch" type="xml">
             <form string="EstateProperty">
-                <sheet>]
+                <sheet>
                     <group>
-                        <field name="postcode"/>
-                        <field name="date_availability"/>
-                    </group>
-                    <group>
-                        <field name="expected_price"/>
-                        <field name="selling_price"/>
+                        <group>
+                            <field name="postcode"/>
+                            <field name="date_availability"/>
+                        </group>
+                        <group>
+                            <field name="expected_price"/>
+                            <field name="selling_price"/>
+                        </group>
                     </group>
                     <notebook>
                         <page string="Description">
