@@ -43,3 +43,13 @@ class EstateProperty(models.Model):
         help="The current state of the listing",
         default="new",
     )
+    property_type_id = fields.Many2one("estate.property_type", string="Property Type")
+    buyer = fields.Many2one("res.partner", string="Buyer")
+    seller = fields.Many2one("res.partner", string="Seller")
+
+
+class EstatePropertyType(models.Model):
+    _name = "estate.property_type"
+    _description = "Estate Property Type Model"
+
+    name = fields.Char(required=True)
