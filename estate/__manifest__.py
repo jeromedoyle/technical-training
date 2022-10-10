@@ -3,7 +3,7 @@
     "version": "16.3",  # Version
     "application": True,  # This line says the module is an App, and not a module
     "depends": ["base"],  # dependencies
-    "data": ["security/ir.estate.property.access.csv"],
+    "data": ["security/ir.estate_property.access.csv"],
     "installable": True,
     "license": "LGPL-3",
 }
