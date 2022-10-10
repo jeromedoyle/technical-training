@@ -83,9 +83,9 @@
                 <field name="facades"/>
                 <!-- <separator/> -->
                 <filter string="Available Properties" name="available_properties" domain="['|', ('state', '=', 'New'), ('state', '=', 'Offer Received')]"/>
-                <!-- <group expand="1" string="Group By">
+                <group expand="1" string="Group By">
                     <filter string="Postcode" name="postcode" context="{'group_by':'postcode'}"/>
-                </group> -->
+                </group>
             </search>
         </field>
     </record>
