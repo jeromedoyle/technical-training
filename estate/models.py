@@ -41,5 +41,5 @@ class EstateProperty(models.Model):
             ("canceled", "Canceled"),
         ],
         help="The current state of the listing",
-        default="New",
+        default="new",
     )
