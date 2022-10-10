@@ -21,7 +21,7 @@ class EstateProperty(models.Model):
     garden = fields.Boolean()
     garden_area = fields.Integer()
     garden_orientation = fields.Selection(
-        string="Type",
+        string="Garden Orientation",
         selection=[
             ("north", "North"),
             ("south", "South"),
@@ -32,7 +32,7 @@ class EstateProperty(models.Model):
     )
     active = fields.Boolean(default=False)
     state = fields.Selection(
-        string="Type",
+        string="State",
         selection=[
             ("New", "new"),
             ("Offer Received", "offer received"),
