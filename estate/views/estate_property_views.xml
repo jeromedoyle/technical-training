@@ -101,6 +101,12 @@
                                 <field name="tag_ids" widget="many2many_tags"/>
                             </group>
                         </page>
+                        <page string="Other">
+                            <group>
+                                <field name="seller"/>
+                                <field name="buyer"/>
+                            </group>
+                        </page>
                     </notebook>
                 </sheet>
             </form>
