@@ -146,11 +146,13 @@
                             </group>
                         </page>
                         <page string="Offers">
-                            <tree>
-                                <field name="offer_ids.price"/>
-                                <field name="offer_ids.partner_id"/>
-                                <field name="offer_ids.status"/>
-                            </tree>
+                            <field name="offer_ids">
+                                <tree>
+                                    <field name="price"/>
+                                    <field name="partner_id"/>
+                                    <field name="status"/>
+                                </tree>
+                            </field>
                         </page>
                     </notebook>
                 </sheet>
