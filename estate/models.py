@@ -76,9 +76,10 @@ class EstatePropertyOffer(models.Model):
         selection=[
             ("accepted", "Accepted"),
             ("refused", "Refused"),
+            ("submitted", "Submitted"),
         ],
-        default="offer received"
         help="The current status of the offer",
+        default="submitted",
     )
     partner_id = fields.Many2one("res.partner", string="Partner")
     property_id = fields.Many2one("estate.property", string="Property")
