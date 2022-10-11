@@ -147,9 +147,9 @@
                         </page>
                         <page string="Offers">
                             <tree>
-                                <field name="price"/>
-                                <field name="partner_id"/>
-                                <field name="status"/>
+                                <field name="offer_ids.price"/>
+                                <field name="offer_ids.partner_id"/>
+                                <field name="offer_ids.status"/>
                             </tree>
                         </page>
                     </notebook>
