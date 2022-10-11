@@ -52,14 +52,14 @@ class EstateProperty(models.Model):
 
 
 class EstatePropertyType(models.Model):
-    _name = "estate.property_type"
+    _name = "estate.property.type"
     _description = "Estate Property Type Model"
 
     name = fields.Char(required=True)
 
 
 class EstatePropertyTag(models.Model):
-    _name = "estate.property_tag"
+    _name = "estate.property.tag"
     _description = "Tag to identify attributes of a property"
 
     name = fields.Char(required=True)
