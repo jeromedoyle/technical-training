@@ -188,7 +188,6 @@
         <field name="model">estate.property.offer</field>
         <field name="arch" type="xml">
             <tree string="Estate Property Offer">
-                <field name="property_id"/>
                 <field name="price"/>
                 <field name="partner_id"/>
                 <field name="status"/>
@@ -203,7 +202,6 @@
             <form string="Estate Property Offer">
                 <sheet>
                     <group>
-                        <field name="property_id"/>
                         <field name="price"/>
                         <field name="partner_id"/>
                         <field name="status"/>
