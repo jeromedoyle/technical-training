@@ -145,6 +145,13 @@
                                 <field name="buyer"/>
                             </group>
                         </page>
+                        <page string="Offers">
+                            <tree>
+                                <field name="price"/>
+                                <field name="partner_id"/>
+                                <field name="status"/>
+                            </tree>
+                        </page>
                     </notebook>
                 </sheet>
             </form>
