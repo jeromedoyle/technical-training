@@ -112,9 +112,9 @@
                     <h1>
                         <field name="name" placeholder="Property name"/>
                     </h1>
-                    <div>
+                    <group>
                         <field name="tag_ids" widget="many2many_tags"/>
-                    </div>
+                    </group>
                     <group>
                         <group>
                             <field name="property_type_id"/>
