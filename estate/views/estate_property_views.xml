@@ -20,6 +20,7 @@
         <field name="arch" type="xml">
             <tree string="Estate Property">
                 <field name="name"/>
+                <field name="property_type"/>
                 <field name="postcode"/>
                 <field name="bedrooms"/>
                 <field name="living_area"/>
