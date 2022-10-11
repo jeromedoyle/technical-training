@@ -27,6 +27,7 @@
                 <field name="expected_price"/>
                 <field name="selling_price"/>
                 <field name="date_availability"/>
+                <field name="property_tag_ids" widget="many2many_tags"/>
             </tree>
         </field>
     </record>
@@ -63,6 +64,7 @@
                                 <field name="garden"/>
                                 <field name="garden_area"/>
                                 <field name="garden_orientation"/>
+                                <field name="property_tag_ids" widget="many2many_tags"/>
                             </group>
                         </page>
                     </notebook>
@@ -84,7 +86,7 @@
                 <field name="bedrooms"/>
                 <field name="living_area"/>
                 <field name="facades"/>
-                <!-- <separator/> -->
+                <field name="property_tag_ids" widget="many2many_tags"/>
                 <filter string="Available Properties" name="available_properties" domain="['|', ('state', '=', 'new'), ('state', '=', 'offer received')]"/>
                 <group expand="1" string="Group By">
                     <filter string="Postcode" name="postcode" context="{'group_by':'postcode'}"/>
