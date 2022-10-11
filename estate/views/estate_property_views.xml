@@ -8,7 +8,7 @@
     <record id="estate_property_type_action" model="ir.actions.act_window">
         <field name="name">Property Types</field>
         <field name="res_model">estate.property.type</field>
-        <field name="view_mode">tree, form</field>
+        <field name="view_mode">tree,form</field>
     </record>
 
 
@@ -98,7 +98,7 @@
                                 <field name="garden"/>
                                 <field name="garden_area"/>
                                 <field name="garden_orientation"/>
-                                <field name="property_tag_ids" widget="many2many_tags"/>
+                                <field name="property_tag_id" widget="many2many_tags"/>
                             </group>
                         </page>
                     </notebook>
